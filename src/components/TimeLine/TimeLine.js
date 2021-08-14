@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from '../Projects/ProjectsStyles';
+import { GridContainer } from '../Projects/ProjectsStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 
 import { TimeLineData, coding } from '../../constants/constants';
@@ -106,6 +106,7 @@ const Timeline = () => {
           ))}
         </>
       </CarouselContainer>
+
       <CarouselButtons>
         {TimeLineData.map((item, index) => {
           return (
