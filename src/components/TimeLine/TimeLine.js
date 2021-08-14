@@ -49,8 +49,17 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        I am an aspiring web developer with, having excellent problem solving skills. I am quite passionate about learning and being good at what I do. <br/>
+        
+        I consistently demonstrate a can-do attitude and embrace tough challenges with energy and enthusiasm. I am always on the lookout for opportunities to collaborate on new ideas and technologies. <br/> <br/>
+
+        Skills : <br/>
+        Data Structures and Algorithms, Competitive Programming, C++ <br/>
+        HTML5, Cascading Style Sheets, Bootstrap, JavaScript, React.js, Node.js, Embedded JavaScript (EJS), PHP, MongoDB, MySQL, React Native, Electron, Gatsby, Django, Flask, MERN, LESS, SASS, jQuery, PostgreSQL, Git, GitHub, AJAX, REST API, Grunt , Netlify <br/>
+
+        <br/>
       </SectionText>
+
 
       <SectionText>
         <h2>My Timeline: </h2>
