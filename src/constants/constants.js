@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'E Commerce Store',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    description: "An e-commerce website created using React.js and deployed on Netlify. Uses auth0 for user authentication and firebase to store the user’s order history and fetch it when needed. Using tensorflow.js object detection model to detectreal-time objects from over 80 classes and search for similar products on our website. Created and deployed a node.js API with over 20 product details on Heroku to fetch products, used Stripe API for secure and safe payment integration.",
       image: '/images/1-min.jpg',
       tags: ['React', 'Tensorflow', 'Alan AI', 'Firebase', 'Stripe'],
     source: 'https://github.com/sachuverma/React-E-Commerce-v2',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Café Landing Page',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    description:"Created a landing page for a restaurant designed to be attractive using HTML, Bootstrap and backend using Node.js and MongoDB deployed on Heroku. Included several pages for menu items, bars, dining, etc admin can login and change daily special items. Integrated dummy payment methods for pre-booking by users. Restaurant location tracking using Google Maps API.",
     image: '/images/2-min.jpg',
     tags: ['HTML', 'Node.js', 'MongoDB', 'Heroku'],
     source: 'https://github.com/sachuverma/IWT-Project-v2',
