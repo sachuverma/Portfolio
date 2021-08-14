@@ -7,7 +7,7 @@ import Button from '../../styles/GlobalComponents/Button';
 
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+const Hero = () => (
   <>
     <Section row nopadding>
       <LeftSection>
@@ -19,12 +19,10 @@ const Hero = (props) => (
           I am an aspiring Web Developer and Competitive Coder with, having excellent problem solving skills. <br />
           I am quite passionate about learning and being good at what I do.
         </SectionText>
-          <a href="https://www.linkedin.com/in/sachuverma/" target="_blank">
-            <Button>
-                Connect On &nbsp;
-                <AiFillLinkedin size="3rem" />
-            </Button>
-          </a>
+          <Button onClick={() => window.location = 'https://www.linkedin.com/in/sachuverma/'}>
+              Connect On &nbsp;
+              <AiFillLinkedin size="3rem" />
+          </Button>
       </LeftSection>
     </Section>
   </>
