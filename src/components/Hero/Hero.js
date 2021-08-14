@@ -1,7 +1,10 @@
 import React from 'react';
 
+import { AiFillLinkedin } from 'react-icons/ai';
+
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
+
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
@@ -9,13 +12,19 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
+          Hi, I'm <br />
+          SACHIN VERMA
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+          I am an aspiring Web Developer and Competitive Coder with, having excellent problem solving skills. <br />
+          I am quite passionate about learning and being good at what I do.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+          <a href="https://www.linkedin.com/in/sachuverma/" target="_blank">
+            <Button>
+                Connect On &nbsp;
+                <AiFillLinkedin size="3rem" />
+            </Button>
+          </a>
       </LeftSection>
     </Section>
   </>

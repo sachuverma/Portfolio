@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
@@ -9,7 +10,7 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
+        <a style={{ display: 'flex', alignItems: 'center', color:"white", marginBottom: "17.5px" }}>
           <DiCssdeck size="3rem" /> <span>Portfolio</span>
         </a>
       </Link>
@@ -32,13 +33,13 @@ const Header = () =>  (
       </li>        
     </Div2>
       <Div3>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://github.com/sachuverma">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://www.linkedin.com/in/sachuverma/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://www.instagram.com/sachuverma_/">
           <AiFillInstagram size="3rem"/>
         </SocialIcons>
       </Div3>
