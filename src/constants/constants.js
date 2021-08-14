@@ -40,9 +40,9 @@ export const projects = [
 export const TimeLineData = [
   { year: 2022, text: 'Will be joining Cure.Fit as Software Developer', },
   { year: 2021, text: 'Solution\'s Author at Leetcode', },
-  { year: 2020, text: 'Backend Developer at Synergific', },
-  { year: 2020, text: 'Full Stack Developer at vKarma', },
-  { year: 2019, text: 'Frontend Dev at Global Youth India', },
+  { year: 2020, text: 'Backend Developer Intern at Synergific', },
+  { year: 2020, text: 'Full Stack Developer Intern at vKarma', },
+  { year: 2019, text: 'Frontend Dev Intern at Global Youth India', },
 ];
 
 export const coding = [
