@@ -1,8 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
+
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from '../Projects/ProjectsStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { TimeLineData } from '../../constants/constants';
+
+import { TimeLineData, coding } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -48,6 +51,11 @@ const Timeline = () => {
       <SectionText>
       The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
       </SectionText>
+
+      <SectionText>
+        <h2>My Timeline: </h2>
+      </SectionText>
+
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -112,6 +120,34 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
+      
+      
+      <div>
+        <h2>Competitive Programming: </h2>
+      </div>
+      
+
+      <GridContainer style={{ lineHeight: "25px", marginTop: "-5px"}}>
+        {coding.map((codingItems, index) => {
+          return (
+            <div key={index}>
+              <div style={{marginBottom: "10px", fontSize: "2.1rem"}}>
+                {index == 0 ? <h3> Achievements / Ranks: </h3> : <h3> Coding Handles: </h3> }
+              </div>
+              {
+                codingItems.map((codingItem, idx) => {
+                  return <div key={idx}>
+                    -&ensp; <a style={{textDecoration: "none", color: "#ADAFB4"}} href={codingItem.url}> {codingItem.name} : {codingItem.rating} </a>
+                  </div>
+                })
+              }
+            </div>
+          );
+        })}
+      </GridContainer>
+      <br />
+      <br />
+
       <SectionDivider />
     </Section>
   );

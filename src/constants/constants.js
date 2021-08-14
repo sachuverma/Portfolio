@@ -38,11 +38,57 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  // { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Started my journey', },
-  { year: 2019, text: 'Frontend Dev at Global Youth India', },
-  { year: 2020, text: 'Full Stack Developer at vKarma', },
-  { year: 2020, text: 'Backend Developer at Synergific', },
+  { year: 2022, text: 'Will be joining Cure.Fit as Software Developer', },
   { year: 2021, text: 'Solution\'s Author at Leetcode', },
-  { year: 2022, text: 'Will be joining Cure.Fit', },
+  { year: 2020, text: 'Backend Developer at Synergific', },
+  { year: 2020, text: 'Full Stack Developer at vKarma', },
+  { year: 2019, text: 'Frontend Dev at Global Youth India', },
 ];
+
+export const coding = [
+  [
+    {
+      name: "Leetcode",
+      rating: "241 /13000+ in Bi-Weekly",
+      url: null
+    },
+    {
+      name: "Codeforces",
+      rating: "800 /25000+ in Div 3",
+      url: null
+    },
+    {
+      name: "Codechef",
+      rating: "609 rank May Cook-Off",
+      url: null
+    },
+    {
+      name: "Codechef",
+      rating: "600 rank June Cook-Off",
+      url: null
+    }
+  ],
+  [
+    {
+      name: "Leetcode",
+      rating: "2000",
+      url: "https://leetcode.com/sachuverma/"
+    },
+    {
+      name: "Codeforces",
+      rating: "specialist",
+      url: "https://codeforces.com/profile/sachuverma"
+    },
+    {
+      name: "Codechef",
+      rating: "4 star coder",
+      url: "https://www.codechef.com/users/sachuverma"
+    },
+    {
+      name: "Hackerrank",
+      rating: "5 star coder",
+      url: "https://www.hackerrank.com/sachuverma?hr_r=1"
+    },
+  ]
+];
+
