@@ -38,23 +38,23 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2022, text: 'Will be joining Cure.Fit as Software Developer', },
-  { year: 2021, text: 'Solution\'s Author at Leetcode', },
-  { year: 2020, text: 'Backend Developer Intern at Synergific', },
-  { year: 2020, text: 'Full Stack Developer Intern at vKarma', },
-  { year: 2019, text: 'Frontend Dev Intern at Global Youth India', },
+  // { year: 2022, text: 'Will be joining Cure.Fit as Software Developer', },
+  { year: 2021, text: 'Solution\'s Author at Leetcode (Part-Time)', },
+  { year: 2020, text: 'Backend Developer at Synergific (Intern)', },
+  { year: 2020, text: 'Full Stack Developer at vKarma (Intern)', },
+  { year: 2019, text: 'Frontend Dev at Global Youth India (Intern)', },
 ];
 
 export const coding = [
   [
     {
       name: "Leetcode",
-      rating: "241 /13000+ in Bi-Weekly",
+      rating: "241/13k+ in Bi-Weekly",
       url: null
     },
     {
       name: "Codeforces",
-      rating: "800 /25000+ in Div 3",
+      rating: "800/25k+ in Div 3",
       url: null
     },
     {
