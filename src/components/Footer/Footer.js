@@ -7,7 +7,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
     <FooterWrapper>
-      <LinkList>
+      {/*<LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
           <LinkItem href="tel:+91-9810745055">+91-9810745055</LinkItem>
@@ -18,7 +18,7 @@ const Footer = () => {
             sachinverma53121@gmail.com
           </LinkItem>
         </LinkColumn>
-      </LinkList>
+      </LinkList>*/}
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>Copyright © 2021. All rights reserved</Slogan>
