@@ -38,11 +38,11 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  // { year: 2022, text: 'Will be joining Cure.Fit as Software Developer', },
+  { year: 2022, text: 'SDE at Deutsche Telekom Digital Labs (Full-Time)', },
   { year: 2021, text: 'Solution\'s Author at Leetcode (Part-Time)', },
   { year: 2020, text: 'Backend Developer at Synergific (Intern)', },
   { year: 2020, text: 'Full Stack Developer at vKarma (Intern)', },
-  { year: 2019, text: 'Frontend Dev at Global Youth India (Intern)', },
+  // { year: 2019, text: 'Frontend Dev at Global Youth India (Intern)', },
 ];
 
 export const coding = [
@@ -71,18 +71,18 @@ export const coding = [
   [
     {
       name: "Leetcode",
-      rating: "2000",
+      rating: "2000+",
       url: "https://leetcode.com/sachuverma/"
+    },
+    {
+      name: "Codechef",
+      rating: "1950+ rating",
+      url: "https://www.codechef.com/users/sachuverma"
     },
     {
       name: "Codeforces",
       rating: "specialist",
       url: "https://codeforces.com/profile/sachuverma"
-    },
-    {
-      name: "Codechef",
-      rating: "4 star coder",
-      url: "https://www.codechef.com/users/sachuverma"
     },
     {
       name: "Hackerrank",

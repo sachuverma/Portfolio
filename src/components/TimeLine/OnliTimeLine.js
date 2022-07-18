@@ -46,26 +46,14 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+    <Section id="">
+
+
       <SectionText>
-        I am an aspiring web developer with, having excellent problem solving skills. I am quite passionate about learning and being good at what I do. <br/>
-        
-        I consistently demonstrate a can-do attitude and embrace tough challenges with energy and enthusiasm. I am always on the lookout for opportunities to collaborate on new ideas and technologies. <br/> <br/>
-
-        Skills : <br/>
-        Data Structures and Algorithms, Competitive Programming, C++ <br/>
-        HTML5, Cascading Style Sheets, Bootstrap, JavaScript, React.js, Node.js, Embedded JavaScript (EJS), PHP, MongoDB, MySQL, React Native, Electron, Gatsby, Django, Flask, MERN, LESS, SASS, jQuery, PostgreSQL, Git, GitHub, AJAX, REST API, Grunt , Netlify <br/>
-
-        <br/>
+        <h2>My Timeline: </h2>
       </SectionText>
 
-
-      {/* <SectionText>
-        <h2>My Timeline: </h2>
-      </SectionText> */}
-
-      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -114,9 +102,9 @@ const Timeline = () => {
             </CarouselMobileScrollNode>
           ))}
         </>
-      </CarouselContainer> */}
+      </CarouselContainer>
 
-      {/* <CarouselButtons>
+      <CarouselButtons>
         {TimeLineData.map((item, index) => {
           return (
             <CarouselButton
@@ -129,36 +117,8 @@ const Timeline = () => {
             </CarouselButton>
           );
         })}
-      </CarouselButtons> */}
+      </CarouselButtons>
       
-      
-      <div>
-        <h2>Competitive Programming: </h2>
-      </div>
-      
-
-      <GridContainer style={{ lineHeight: "25px", marginTop: "-5px"}}>
-        {coding.map((codingItems, index) => {
-          return (
-            <div key={index}>
-              <div style={{marginBottom: "10px", fontSize: "2.1rem"}}>
-                {index == 0 ? <h3> Achievements / Ranks: </h3> : <h3> Coding Handles: </h3> }
-              </div>
-              {
-                codingItems.map((codingItem, idx) => {
-                  return <div key={idx}>
-                    -&ensp; <a style={{textDecoration: "none", color: "#ADAFB4"}} href={codingItem.url}> {codingItem.name} : {codingItem.rating} </a>
-                  </div>
-                })
-              }
-            </div>
-          );
-        })}
-      </GridContainer>
-      <br />
-      <br />
-
-      <SectionDivider />
     </Section>
   );
 };
