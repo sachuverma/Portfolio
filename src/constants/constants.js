@@ -38,11 +38,14 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2022, text: 'SDE at Deutsche Telekom Digital Labs (Full-Time)', },
-  { year: 2021, text: 'Solution\'s Author at Leetcode (Part-Time)', },
-  { year: 2020, text: 'Backend Developer at Synergific (Intern)', },
-  { year: 2020, text: 'Full Stack Developer at vKarma (Intern)', },
-  // { year: 2019, text: 'Frontend Dev at Global Youth India (Intern)', },
+  { year: 2025, text: 'Backend Developer 2 at DP World', },
+  { year: 2022, text: 'Software Developer at Deutsche Telekom', },
+  { year: 2021, text: 'Solution\'s Author at Leetcode', },
+  { year: 2020, text: 'Backend Developer Intern at Synergific', },
+  // { year: "2025 to Present", text: 'Backend Developer 2 at DP World', },
+  // { year: "2022 to 2025", text: 'Software Developer at Deutsche Telekom', },
+  // { year: "2021 to 2022", text: 'Solution\'s Author at Leetcode', },
+  // { year: "2020 to 2020", text: 'Backend Developer Intern at Synergific', },
 ];
 
 export const coding = [

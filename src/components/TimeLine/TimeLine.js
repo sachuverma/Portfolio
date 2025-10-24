@@ -14,6 +14,9 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
+    if (node == null) {
+      return;
+    }
     return node.scrollTo({ left, behavior: 'smooth' });
   }
 
@@ -49,13 +52,14 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am an aspiring web developer with, having excellent problem solving skills. I am quite passionate about learning and being good at what I do. <br/>
-        
+        I am a Software Development Engineer, having excellent problem solving skills. I am quite passionate about learning and being good at what I do. <br/>
         I consistently demonstrate a can-do attitude and embrace tough challenges with energy and enthusiasm. I am always on the lookout for opportunities to collaborate on new ideas and technologies. <br/> <br/>
 
         Skills : <br/>
         Data Structures and Algorithms, Competitive Programming, C++ <br/>
-        HTML5, Cascading Style Sheets, Bootstrap, JavaScript, React.js, Node.js, Embedded JavaScript (EJS), PHP, MongoDB, MySQL, React Native, Electron, Gatsby, Django, Flask, MERN, LESS, SASS, jQuery, PostgreSQL, Git, GitHub, AJAX, REST API, Grunt , Netlify <br/>
+        Backend Development: Java, Spring Boot, <br />
+        Frontend Development: React.js, HTML, CSS  <br/>
+        Mobile Development: iOS Development, Swift, SwiftUI, Objective-C  <br/>
 
         <br/>
       </SectionText>

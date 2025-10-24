@@ -8,7 +8,7 @@ import { projects } from '../../constants/constants';
 const Projects = () => (
   <Section nopadding={false} id="projects">
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>Personal Projects</SectionTitle>
     <GridContainer>
       {projects.map((project, index) => {
         return (
@@ -36,6 +36,8 @@ const Projects = () => (
         );
       })}
     </GridContainer>
+    <br />
+    <SectionDivider colorAlt />
   </Section>
 );
 

@@ -14,6 +14,9 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
+    if (node == null) {
+      return;
+    }
     return node.scrollTo({ left, behavior: 'smooth' });
   }
 
